@@ -1,0 +1,233 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should match the snapshot 1`] = `
+<Menu
+  fixed="top"
+>
+  <Container>
+    <MenuItem
+      as="a"
+      header={true}
+    >
+      <Image
+        as="img"
+        size="mini"
+        src="IMAGE_MOCK"
+        style={
+          Object {
+            "marginRight": "1.5em",
+          }
+        }
+        ui={true}
+      />
+      Fereign Exchange Currency
+    </MenuItem>
+    <Link
+      className="item"
+      replace={false}
+      to="/"
+    >
+      <FormattedMessage
+        defaultMessage="List Currency"
+        id="boilerplate.components.Header.list"
+        values={Object {}}
+      />
+    </Link>
+    <Link
+      className="item"
+      replace={false}
+      to="/about"
+    >
+      <FormattedMessage
+        defaultMessage="About"
+        id="boilerplate.components.Header.about"
+        values={Object {}}
+      />
+    </Link>
+    <MenuItem
+      position="right"
+    >
+      <Input
+        action={true}
+        placeholder="Amount..."
+        type="text"
+      >
+        <input
+          onChange={[Function]}
+          type="number"
+          value={1}
+        />
+        <Select
+          compact={true}
+          defaultValue="USD"
+          onChange={[Function]}
+          options={
+            Array [
+              Object {
+                "key": "AUD",
+                "text": "AUD",
+                "value": "AUD",
+              },
+              Object {
+                "key": "BGN",
+                "text": "BGN",
+                "value": "BGN",
+              },
+              Object {
+                "key": "BRL",
+                "text": "BRL",
+                "value": "BRL",
+              },
+              Object {
+                "key": "CAD",
+                "text": "CAD",
+                "value": "CAD",
+              },
+              Object {
+                "key": "CHF",
+                "text": "CHF",
+                "value": "CHF",
+              },
+              Object {
+                "key": "CNY",
+                "text": "CNY",
+                "value": "CNY",
+              },
+              Object {
+                "key": "CZK",
+                "text": "CZK",
+                "value": "CZK",
+              },
+              Object {
+                "key": "DKK",
+                "text": "DKK",
+                "value": "DKK",
+              },
+              Object {
+                "key": "GBP",
+                "text": "GBP",
+                "value": "GBP",
+              },
+              Object {
+                "key": "HKD",
+                "text": "HKD",
+                "value": "HKD",
+              },
+              Object {
+                "key": "HRK",
+                "text": "HRK",
+                "value": "HRK",
+              },
+              Object {
+                "key": "HUF",
+                "text": "HUF",
+                "value": "HUF",
+              },
+              Object {
+                "key": "IDR",
+                "text": "IDR",
+                "value": "IDR",
+              },
+              Object {
+                "key": "ILS",
+                "text": "ILS",
+                "value": "ILS",
+              },
+              Object {
+                "key": "INR",
+                "text": "INR",
+                "value": "INR",
+              },
+              Object {
+                "key": "ISK",
+                "text": "ISK",
+                "value": "ISK",
+              },
+              Object {
+                "key": "JPY",
+                "text": "JPY",
+                "value": "JPY",
+              },
+              Object {
+                "key": "KRW",
+                "text": "KRW",
+                "value": "KRW",
+              },
+              Object {
+                "key": "MXN",
+                "text": "MXN",
+                "value": "MXN",
+              },
+              Object {
+                "key": "MYR",
+                "text": "MYR",
+                "value": "MYR",
+              },
+              Object {
+                "key": "NOK",
+                "text": "NOK",
+                "value": "NOK",
+              },
+              Object {
+                "key": "NZD",
+                "text": "NZD",
+                "value": "NZD",
+              },
+              Object {
+                "key": "PHP",
+                "text": "PHP",
+                "value": "PHP",
+              },
+              Object {
+                "key": "PLN",
+                "text": "PLN",
+                "value": "PLN",
+              },
+              Object {
+                "key": "RON",
+                "text": "RON",
+                "value": "RON",
+              },
+              Object {
+                "key": "RUB",
+                "text": "RUB",
+                "value": "RUB",
+              },
+              Object {
+                "key": "SEK",
+                "text": "SEK",
+                "value": "SEK",
+              },
+              Object {
+                "key": "SGD",
+                "text": "SGD",
+                "value": "SGD",
+              },
+              Object {
+                "key": "THB",
+                "text": "THB",
+                "value": "THB",
+              },
+              Object {
+                "key": "TRY",
+                "text": "TRY",
+                "value": "TRY",
+              },
+              Object {
+                "key": "USD",
+                "text": "USD",
+                "value": "USD",
+              },
+              Object {
+                "key": "ZAR",
+                "text": "ZAR",
+                "value": "ZAR",
+              },
+            ]
+          }
+        />
+      </Input>
+    </MenuItem>
+  </Container>
+</Menu>
+`;

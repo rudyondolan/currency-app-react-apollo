@@ -1,0 +1,173 @@
+query Exchange($base: String!, $amount: Float) {
+  exchange(base: $base, amount: $amount) {
+    base
+    date
+    rates {
+      AUD {
+        base
+        amount
+        text
+      }
+      BGN {
+        base
+        amount
+        text
+      }
+      BRL {
+        base
+        amount
+        text
+      }
+      CAD {
+        base
+        amount
+        text
+      }
+      CHF {
+        base
+        amount
+        text
+      }
+      CNY {
+        base
+        amount
+        text
+      }
+      CZK {
+        base
+        amount
+        text
+      }
+      DKK {
+        base
+        amount
+        text
+      }
+      GBP {
+        base
+        amount
+        text
+      }
+      HKD {
+        base
+        amount
+        text
+      }
+      HRK {
+        base
+        amount
+        text
+      }
+      HUF {
+        base
+        amount
+        text
+      }
+      IDR {
+        base
+        amount
+        text
+      }
+      ILS {
+        base
+        amount
+        text
+      }
+      INR {
+        base
+        amount
+        text
+      }
+      ISK {
+        base
+        amount
+        text
+      }
+      JPY {
+        base
+        amount
+        text
+      }
+      KRW {
+        base
+        amount
+        text
+      }
+      MXN {
+        base
+        amount
+        text
+      }
+      MYR {
+        base
+        amount
+        text
+      }
+      NOK {
+        base
+        amount
+        text
+      }
+      NZD {
+        base
+        amount
+        text
+      }
+      PHP {
+        base
+        amount
+        text
+      }
+      PLN {
+        base
+        amount
+        text
+      }
+      RON {
+        base
+        amount
+        text
+      }
+      RUB {
+        base
+        amount
+        text
+      }
+      SEK {
+        base
+        amount
+        text
+      }
+      SGD {
+        base
+        amount
+        text
+      }
+      THB {
+        base
+        amount
+        text
+      }
+      TRY {
+        base
+        amount
+        text
+      }
+      USD {
+        base
+        amount
+        text
+      }
+      ZAR {
+        base
+        amount
+        text
+      }
+      EUR {
+        base
+        amount
+        text
+      }
+    }
+  }
+}

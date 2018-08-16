@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Loader /> should match the snapshot 1`] = `
+<ExchangeLoader
+  intl={
+    Object {
+      "defaultFormats": Object {},
+      "defaultLocale": "en",
+      "formatDate": [Function],
+      "formatHTMLMessage": [Function],
+      "formatMessage": [Function],
+      "formatNumber": [Function],
+      "formatPlural": [Function],
+      "formatRelative": [Function],
+      "formatTime": [Function],
+      "formats": Object {},
+      "formatters": Object {
+        "getDateTimeFormat": [Function],
+        "getMessageFormat": [Function],
+        "getNumberFormat": [Function],
+        "getPluralFormat": [Function],
+        "getRelativeFormat": [Function],
+      },
+      "locale": "en",
+      "messages": Object {},
+      "now": [Function],
+      "textComponent": "span",
+    }
+  }
+>
+  <Dimmer
+    active={true}
+    inverted={true}
+  >
+    <DimmerInner
+      active={true}
+      inverted={true}
+    >
+      <div
+        className="ui active transition visible inverted dimmer"
+        onClick={[Function]}
+      >
+        <div
+          className="content"
+        >
+          <Loader
+            size="large"
+          >
+            <div
+              className="ui large text loader"
+            >
+              <FormattedMessage
+                defaultMessage="Loading..."
+                id="app.components.Loader.loading"
+                values={Object {}}
+              >
+                <span>
+                  Loading...
+                </span>
+              </FormattedMessage>
+            </div>
+          </Loader>
+        </div>
+      </div>
+    </DimmerInner>
+  </Dimmer>
+</ExchangeLoader>
+`;

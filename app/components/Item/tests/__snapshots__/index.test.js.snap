@@ -1,0 +1,415 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Item /> should match the snapshot: after update 1`] = `
+<Item
+  currencyData={
+    Object {
+      "currency": "USD",
+      "data": Object {
+        "amount": 1.3554413025,
+        "base": 1.3554413025,
+        "convertedCurrency": "AUD",
+        "text": "Australia Dollar",
+      },
+      "id": 0,
+    }
+  }
+  data={
+    Object {
+      "base": "USD",
+      "date": "2018-07-20",
+      "rates": Object {
+        "AUD": Object {
+          "amount": 13.554413025,
+          "base": 1.3554413025,
+          "text": "Australia Dollar",
+        },
+      },
+    }
+  }
+  intl={
+    Object {
+      "defaultFormats": Object {},
+      "defaultLocale": "en",
+      "formatDate": [Function],
+      "formatHTMLMessage": [Function],
+      "formatMessage": [Function],
+      "formatNumber": [Function],
+      "formatPlural": [Function],
+      "formatRelative": [Function],
+      "formatTime": [Function],
+      "formats": Object {},
+      "formatters": Object {
+        "getDateTimeFormat": [Function],
+        "getMessageFormat": [Function],
+        "getNumberFormat": [Function],
+        "getPluralFormat": [Function],
+        "getRelativeFormat": [Function],
+      },
+      "locale": "en",
+      "messages": Object {},
+      "now": [Function],
+      "textComponent": "span",
+    }
+  }
+  isDisplayForm={false}
+  loading={false}
+  onClose={[Function]}
+  onResetCurrency={[Function]}
+  onToggleButton={[Function]}
+  onToggleForm={[Function]}
+  totalCurrency={1}
+>
+  <Segment
+    loading={false}
+  >
+    <div
+      className="ui segment"
+    >
+      <Item__IconWrapper>
+        <div
+          className="Item__IconWrapper-ktHDgb esfGgc"
+        >
+          <Item__StyledIcon
+            circular={true}
+            inverted={true}
+            name="close"
+            onClick={[Function]}
+            size="small"
+          >
+            <Icon
+              as="i"
+              circular={true}
+              className="Item__StyledIcon-kVInds ccSeKA"
+              inverted={true}
+              name="close"
+              onClick={[Function]}
+              size="small"
+            >
+              <i
+                aria-hidden="true"
+                className="close small circular inverted icon Item__StyledIcon-kVInds ccSeKA"
+                onClick={[Function]}
+              />
+            </Icon>
+          </Item__StyledIcon>
+        </div>
+      </Item__IconWrapper>
+      <Grid
+        celled={true}
+        columns={2}
+        style={
+          Object {
+            "marginBottom": "0px",
+          }
+        }
+      >
+        <div
+          className="ui celled two column grid"
+          style={
+            Object {
+              "marginBottom": "0px",
+            }
+          }
+        >
+          <GridRow>
+            <div
+              className="row"
+            >
+              <GridColumn>
+                <div
+                  className="column"
+                >
+                  <Header
+                    as="h3"
+                  >
+                    <h3
+                      className="ui header"
+                    >
+                      AUD
+                    </h3>
+                  </Header>
+                </div>
+              </GridColumn>
+              <GridColumn>
+                <div
+                  className="column"
+                >
+                  <Header
+                    as="h3"
+                  >
+                    <h3
+                      className="ui header"
+                    >
+                      <FormattedNumber
+                        minimumFractionDigits={2}
+                        value={13.554413025}
+                      >
+                        <span>
+                          13.554
+                        </span>
+                      </FormattedNumber>
+                    </h3>
+                  </Header>
+                </div>
+              </GridColumn>
+            </div>
+          </GridRow>
+          <GridRow>
+            <div
+              className="row"
+            >
+              <GridColumn>
+                <div
+                  className="column"
+                >
+                  <Header
+                    as="h4"
+                  >
+                    <h4
+                      className="ui header"
+                    >
+                      Australia Dollar
+                    </h4>
+                  </Header>
+                </div>
+              </GridColumn>
+            </div>
+          </GridRow>
+          <GridRow>
+            <div
+              className="row"
+            >
+              <GridColumn>
+                <div
+                  className="column"
+                >
+                  <Header
+                    as="h5"
+                  >
+                    <h5
+                      className="ui header"
+                    >
+                      <i>
+                        1 USD = AUD 
+                        <FormattedNumber
+                          minimumFractionDigits={2}
+                          value={1.3554413025}
+                        >
+                          <span>
+                            1.355
+                          </span>
+                        </FormattedNumber>
+                      </i>
+                    </h5>
+                  </Header>
+                </div>
+              </GridColumn>
+            </div>
+          </GridRow>
+        </div>
+      </Grid>
+    </div>
+  </Segment>
+</Item>
+`;
+
+exports[`<Item /> should match the snapshot: before update 1`] = `
+<Item
+  currencyData={
+    Object {
+      "currency": "USD",
+      "data": Object {
+        "amount": 1.3554413025,
+        "base": 1.3554413025,
+        "convertedCurrency": "AUD",
+        "text": "Australia Dollar",
+      },
+      "id": 0,
+    }
+  }
+  data={Object {}}
+  intl={
+    Object {
+      "defaultFormats": Object {},
+      "defaultLocale": "en",
+      "formatDate": [Function],
+      "formatHTMLMessage": [Function],
+      "formatMessage": [Function],
+      "formatNumber": [Function],
+      "formatPlural": [Function],
+      "formatRelative": [Function],
+      "formatTime": [Function],
+      "formats": Object {},
+      "formatters": Object {
+        "getDateTimeFormat": [Function],
+        "getMessageFormat": [Function],
+        "getNumberFormat": [Function],
+        "getPluralFormat": [Function],
+        "getRelativeFormat": [Function],
+      },
+      "locale": "en",
+      "messages": Object {},
+      "now": [Function],
+      "textComponent": "span",
+    }
+  }
+  isDisplayForm={false}
+  loading={false}
+  onClose={[Function]}
+  onResetCurrency={[Function]}
+  onToggleButton={[Function]}
+  onToggleForm={[Function]}
+  totalCurrency={1}
+>
+  <Segment
+    loading={false}
+  >
+    <div
+      className="ui segment"
+    >
+      <Item__IconWrapper>
+        <div
+          className="Item__IconWrapper-ktHDgb esfGgc"
+        >
+          <Item__StyledIcon
+            circular={true}
+            inverted={true}
+            name="close"
+            onClick={[Function]}
+            size="small"
+          >
+            <Icon
+              as="i"
+              circular={true}
+              className="Item__StyledIcon-kVInds ccSeKA"
+              inverted={true}
+              name="close"
+              onClick={[Function]}
+              size="small"
+            >
+              <i
+                aria-hidden="true"
+                className="close small circular inverted icon Item__StyledIcon-kVInds ccSeKA"
+                onClick={[Function]}
+              />
+            </Icon>
+          </Item__StyledIcon>
+        </div>
+      </Item__IconWrapper>
+      <Grid
+        celled={true}
+        columns={2}
+        style={
+          Object {
+            "marginBottom": "0px",
+          }
+        }
+      >
+        <div
+          className="ui celled two column grid"
+          style={
+            Object {
+              "marginBottom": "0px",
+            }
+          }
+        >
+          <GridRow>
+            <div
+              className="row"
+            >
+              <GridColumn>
+                <div
+                  className="column"
+                >
+                  <Header
+                    as="h3"
+                  >
+                    <h3
+                      className="ui header"
+                    >
+                      AUD
+                    </h3>
+                  </Header>
+                </div>
+              </GridColumn>
+              <GridColumn>
+                <div
+                  className="column"
+                >
+                  <Header
+                    as="h3"
+                  >
+                    <h3
+                      className="ui header"
+                    >
+                      <FormattedNumber
+                        minimumFractionDigits={2}
+                      >
+                        <span>
+                          NaN
+                        </span>
+                      </FormattedNumber>
+                    </h3>
+                  </Header>
+                </div>
+              </GridColumn>
+            </div>
+          </GridRow>
+          <GridRow>
+            <div
+              className="row"
+            >
+              <GridColumn>
+                <div
+                  className="column"
+                >
+                  <Header
+                    as="h4"
+                  >
+                    <h4
+                      className="ui header"
+                    >
+                      Australia Dollar
+                    </h4>
+                  </Header>
+                </div>
+              </GridColumn>
+            </div>
+          </GridRow>
+          <GridRow>
+            <div
+              className="row"
+            >
+              <GridColumn>
+                <div
+                  className="column"
+                >
+                  <Header
+                    as="h5"
+                  >
+                    <h5
+                      className="ui header"
+                    >
+                      <i>
+                        1 undefined = AUD 
+                        <FormattedNumber
+                          minimumFractionDigits={2}
+                        >
+                          <span>
+                            NaN
+                          </span>
+                        </FormattedNumber>
+                      </i>
+                    </h5>
+                  </Header>
+                </div>
+              </GridColumn>
+            </div>
+          </GridRow>
+        </div>
+      </Grid>
+    </div>
+  </Segment>
+</Item>
+`;

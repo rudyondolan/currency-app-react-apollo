@@ -1,0 +1,1688 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Form /> should match the snapshot 1`] = `
+<Form
+  intl={
+    Object {
+      "defaultFormats": Object {},
+      "defaultLocale": "en",
+      "formatDate": [Function],
+      "formatHTMLMessage": [Function],
+      "formatMessage": [Function],
+      "formatNumber": [Function],
+      "formatPlural": [Function],
+      "formatRelative": [Function],
+      "formatTime": [Function],
+      "formats": Object {},
+      "formatters": Object {
+        "getDateTimeFormat": [Function],
+        "getMessageFormat": [Function],
+        "getNumberFormat": [Function],
+        "getPluralFormat": [Function],
+        "getRelativeFormat": [Function],
+      },
+      "locale": "en",
+      "messages": Object {},
+      "now": [Function],
+      "textComponent": "span",
+    }
+  }
+  onChange={[Function]}
+  onClick={[Function]}
+>
+  <Segment>
+    <div
+      className="ui segment"
+    >
+      <Grid>
+        <div
+          className="ui grid"
+        >
+          <GridRow>
+            <div
+              className="row"
+            >
+              <GridColumn
+                width="13"
+              >
+                <div
+                  className="thirteen wide column"
+                >
+                  <Dropdown
+                    additionLabel="Add "
+                    additionPosition="top"
+                    closeOnBlur={true}
+                    deburr={false}
+                    fluid={true}
+                    icon="dropdown"
+                    minCharacters={1}
+                    noResultsMessage="No results found."
+                    onChange={[Function]}
+                    openOnFocus={true}
+                    options={
+                      Array [
+                        Object {
+                          "flag": "au",
+                          "key": "AUD",
+                          "text": "AUD",
+                          "value": "AUD",
+                        },
+                        Object {
+                          "flag": "bg",
+                          "key": "BGN",
+                          "text": "BGN",
+                          "value": "BGN",
+                        },
+                        Object {
+                          "flag": "br",
+                          "key": "BRL",
+                          "text": "BRL",
+                          "value": "BRL",
+                        },
+                        Object {
+                          "flag": "ca",
+                          "key": "CAD",
+                          "text": "CAD",
+                          "value": "CAD",
+                        },
+                        Object {
+                          "flag": "ch",
+                          "key": "CHF",
+                          "text": "CHF",
+                          "value": "CHF",
+                        },
+                        Object {
+                          "flag": "cn",
+                          "key": "CNY",
+                          "text": "CNY",
+                          "value": "CNY",
+                        },
+                        Object {
+                          "flag": "cz",
+                          "key": "CZK",
+                          "text": "CZK",
+                          "value": "CZK",
+                        },
+                        Object {
+                          "flag": "dk",
+                          "key": "DKK",
+                          "text": "DKK",
+                          "value": "DKK",
+                        },
+                        Object {
+                          "flag": "gb",
+                          "key": "GBP",
+                          "text": "GBP",
+                          "value": "GBP",
+                        },
+                        Object {
+                          "flag": "hk",
+                          "key": "HKD",
+                          "text": "HKD",
+                          "value": "HKD",
+                        },
+                        Object {
+                          "flag": "hr",
+                          "key": "HRK",
+                          "text": "HRK",
+                          "value": "HRK",
+                        },
+                        Object {
+                          "flag": "hu",
+                          "key": "HUF",
+                          "text": "HUF",
+                          "value": "HUF",
+                        },
+                        Object {
+                          "flag": "id",
+                          "key": "IDR",
+                          "text": "IDR",
+                          "value": "IDR",
+                        },
+                        Object {
+                          "flag": "il",
+                          "key": "ILS",
+                          "text": "ILS",
+                          "value": "ILS",
+                        },
+                        Object {
+                          "flag": "in",
+                          "key": "INR",
+                          "text": "INR",
+                          "value": "INR",
+                        },
+                        Object {
+                          "flag": "is",
+                          "key": "ISK",
+                          "text": "ISK",
+                          "value": "ISK",
+                        },
+                        Object {
+                          "flag": "jp",
+                          "key": "JPY",
+                          "text": "JPY",
+                          "value": "JPY",
+                        },
+                        Object {
+                          "flag": "kr",
+                          "key": "KRW",
+                          "text": "KRW",
+                          "value": "KRW",
+                        },
+                        Object {
+                          "flag": "mx",
+                          "key": "MXN",
+                          "text": "MXN",
+                          "value": "MXN",
+                        },
+                        Object {
+                          "flag": "my",
+                          "key": "MYR",
+                          "text": "MYR",
+                          "value": "MYR",
+                        },
+                        Object {
+                          "flag": "no",
+                          "key": "NOK",
+                          "text": "NOK",
+                          "value": "NOK",
+                        },
+                        Object {
+                          "flag": "nz",
+                          "key": "NZD",
+                          "text": "NZD",
+                          "value": "NZD",
+                        },
+                        Object {
+                          "flag": "ph",
+                          "key": "PHP",
+                          "text": "PHP",
+                          "value": "PHP",
+                        },
+                        Object {
+                          "flag": "pl",
+                          "key": "PLN",
+                          "text": "PLN",
+                          "value": "PLN",
+                        },
+                        Object {
+                          "flag": "ro",
+                          "key": "RON",
+                          "text": "RON",
+                          "value": "RON",
+                        },
+                        Object {
+                          "flag": "ru",
+                          "key": "RUB",
+                          "text": "RUB",
+                          "value": "RUB",
+                        },
+                        Object {
+                          "flag": "se",
+                          "key": "SEK",
+                          "text": "SEK",
+                          "value": "SEK",
+                        },
+                        Object {
+                          "flag": "sg",
+                          "key": "SGD",
+                          "text": "SGD",
+                          "value": "SGD",
+                        },
+                        Object {
+                          "flag": "th",
+                          "key": "THB",
+                          "text": "THB",
+                          "value": "THB",
+                        },
+                        Object {
+                          "flag": "tr",
+                          "key": "TRY",
+                          "text": "TRY",
+                          "value": "TRY",
+                        },
+                        Object {
+                          "flag": "us",
+                          "key": "USD",
+                          "text": "USD",
+                          "value": "USD",
+                        },
+                        Object {
+                          "flag": "za",
+                          "key": "ZAR",
+                          "text": "ZAR",
+                          "value": "ZAR",
+                        },
+                      ]
+                    }
+                    placeholder="Select Currency"
+                    renderLabel={[Function]}
+                    search={true}
+                    searchInput="text"
+                    selectOnBlur={true}
+                    selectOnNavigation={true}
+                    selection={true}
+                    wrapSelection={true}
+                  >
+                    <div
+                      aria-expanded={false}
+                      className="ui fluid search selection dropdown"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      onMouseDown={[Function]}
+                      role="combobox"
+                    >
+                      <DropdownSearchInput
+                        autoComplete="off"
+                        inputRef={[Function]}
+                        key="text"
+                        onChange={[Function]}
+                        style={
+                          Object {
+                            "width": undefined,
+                          }
+                        }
+                        tabIndex={0}
+                        type="text"
+                        value=""
+                      >
+                        <input
+                          aria-autocomplete="list"
+                          autoComplete="off"
+                          className="search"
+                          onChange={[Function]}
+                          style={
+                            Object {
+                              "width": undefined,
+                            }
+                          }
+                          tabIndex={0}
+                          type="text"
+                          value=""
+                        />
+                      </DropdownSearchInput>
+                      <div
+                        aria-live="polite"
+                        className="default text"
+                        role="alert"
+                      >
+                        Select Currency
+                      </div>
+                      <Icon
+                        as="i"
+                        name="dropdown"
+                        onClick={[Function]}
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="dropdown icon"
+                          onClick={[Function]}
+                        />
+                      </Icon>
+                      <DropdownMenu
+                        role="listbox"
+                      >
+                        <div
+                          className="menu transition"
+                          role="listbox"
+                        >
+                          <DropdownItem
+                            active={false}
+                            flag="au"
+                            key="AUD"
+                            onClick={[Function]}
+                            selected={true}
+                            style={
+                              Object {
+                                "pointerEvents": "all",
+                              }
+                            }
+                            text="AUD"
+                            value="AUD"
+                          >
+                            <div
+                              aria-checked={false}
+                              aria-selected={true}
+                              className="selected item"
+                              onClick={[Function]}
+                              role="option"
+                              style={
+                                Object {
+                                  "pointerEvents": "all",
+                                }
+                              }
+                            >
+                              <Flag
+                                as="i"
+                                name="au"
+                              >
+                                <i
+                                  className="au flag"
+                                />
+                              </Flag>
+                              <span
+                                className="text"
+                              >
+                                AUD
+                              </span>
+                            </div>
+                          </DropdownItem>
+                          <DropdownItem
+                            active={false}
+                            flag="bg"
+                            key="BGN"
+                            onClick={[Function]}
+                            selected={false}
+                            style={
+                              Object {
+                                "pointerEvents": "all",
+                              }
+                            }
+                            text="BGN"
+                            value="BGN"
+                          >
+                            <div
+                              aria-checked={false}
+                              aria-selected={false}
+                              className="item"
+                              onClick={[Function]}
+                              role="option"
+                              style={
+                                Object {
+                                  "pointerEvents": "all",
+                                }
+                              }
+                            >
+                              <Flag
+                                as="i"
+                                name="bg"
+                              >
+                                <i
+                                  className="bg flag"
+                                />
+                              </Flag>
+                              <span
+                                className="text"
+                              >
+                                BGN
+                              </span>
+                            </div>
+                          </DropdownItem>
+                          <DropdownItem
+                            active={false}
+                            flag="br"
+                            key="BRL"
+                            onClick={[Function]}
+                            selected={false}
+                            style={
+                              Object {
+                                "pointerEvents": "all",
+                              }
+                            }
+                            text="BRL"
+                            value="BRL"
+                          >
+                            <div
+                              aria-checked={false}
+                              aria-selected={false}
+                              className="item"
+                              onClick={[Function]}
+                              role="option"
+                              style={
+                                Object {
+                                  "pointerEvents": "all",
+                                }
+                              }
+                            >
+                              <Flag
+                                as="i"
+                                name="br"
+                              >
+                                <i
+                                  className="br flag"
+                                />
+                              </Flag>
+                              <span
+                                className="text"
+                              >
+                                BRL
+                              </span>
+                            </div>
+                          </DropdownItem>
+                          <DropdownItem
+                            active={false}
+                            flag="ca"
+                            key="CAD"
+                            onClick={[Function]}
+                            selected={false}
+                            style={
+                              Object {
+                                "pointerEvents": "all",
+                              }
+                            }
+                            text="CAD"
+                            value="CAD"
+                          >
+                            <div
+                              aria-checked={false}
+                              aria-selected={false}
+                              className="item"
+                              onClick={[Function]}
+                              role="option"
+                              style={
+                                Object {
+                                  "pointerEvents": "all",
+                                }
+                              }
+                            >
+                              <Flag
+                                as="i"
+                                name="ca"
+                              >
+                                <i
+                                  className="ca flag"
+                                />
+                              </Flag>
+                              <span
+                                className="text"
+                              >
+                                CAD
+                              </span>
+                            </div>
+                          </DropdownItem>
+                          <DropdownItem
+                            active={false}
+                            flag="ch"
+                            key="CHF"
+                            onClick={[Function]}
+                            selected={false}
+                            style={
+                              Object {
+                                "pointerEvents": "all",
+                              }
+                            }
+                            text="CHF"
+                            value="CHF"
+                          >
+                            <div
+                              aria-checked={false}
+                              aria-selected={false}
+                              className="item"
+                              onClick={[Function]}
+                              role="option"
+                              style={
+                                Object {
+                                  "pointerEvents": "all",
+                                }
+                              }
+                            >
+                              <Flag
+                                as="i"
+                                name="ch"
+                              >
+                                <i
+                                  className="ch flag"
+                                />
+                              </Flag>
+                              <span
+                                className="text"
+                              >
+                                CHF
+                              </span>
+                            </div>
+                          </DropdownItem>
+                          <DropdownItem
+                            active={false}
+                            flag="cn"
+                            key="CNY"
+                            onClick={[Function]}
+                            selected={false}
+                            style={
+                              Object {
+                                "pointerEvents": "all",
+                              }
+                            }
+                            text="CNY"
+                            value="CNY"
+                          >
+                            <div
+                              aria-checked={false}
+                              aria-selected={false}
+                              className="item"
+                              onClick={[Function]}
+                              role="option"
+                              style={
+                                Object {
+                                  "pointerEvents": "all",
+                                }
+                              }
+                            >
+                              <Flag
+                                as="i"
+                                name="cn"
+                              >
+                                <i
+                                  className="cn flag"
+                                />
+                              </Flag>
+                              <span
+                                className="text"
+                              >
+                                CNY
+                              </span>
+                            </div>
+                          </DropdownItem>
+                          <DropdownItem
+                            active={false}
+                            flag="cz"
+                            key="CZK"
+                            onClick={[Function]}
+                            selected={false}
+                            style={
+                              Object {
+                                "pointerEvents": "all",
+                              }
+                            }
+                            text="CZK"
+                            value="CZK"
+                          >
+                            <div
+                              aria-checked={false}
+                              aria-selected={false}
+                              className="item"
+                              onClick={[Function]}
+                              role="option"
+                              style={
+                                Object {
+                                  "pointerEvents": "all",
+                                }
+                              }
+                            >
+                              <Flag
+                                as="i"
+                                name="cz"
+                              >
+                                <i
+                                  className="cz flag"
+                                />
+                              </Flag>
+                              <span
+                                className="text"
+                              >
+                                CZK
+                              </span>
+                            </div>
+                          </DropdownItem>
+                          <DropdownItem
+                            active={false}
+                            flag="dk"
+                            key="DKK"
+                            onClick={[Function]}
+                            selected={false}
+                            style={
+                              Object {
+                                "pointerEvents": "all",
+                              }
+                            }
+                            text="DKK"
+                            value="DKK"
+                          >
+                            <div
+                              aria-checked={false}
+                              aria-selected={false}
+                              className="item"
+                              onClick={[Function]}
+                              role="option"
+                              style={
+                                Object {
+                                  "pointerEvents": "all",
+                                }
+                              }
+                            >
+                              <Flag
+                                as="i"
+                                name="dk"
+                              >
+                                <i
+                                  className="dk flag"
+                                />
+                              </Flag>
+                              <span
+                                className="text"
+                              >
+                                DKK
+                              </span>
+                            </div>
+                          </DropdownItem>
+                          <DropdownItem
+                            active={false}
+                            flag="gb"
+                            key="GBP"
+                            onClick={[Function]}
+                            selected={false}
+                            style={
+                              Object {
+                                "pointerEvents": "all",
+                              }
+                            }
+                            text="GBP"
+                            value="GBP"
+                          >
+                            <div
+                              aria-checked={false}
+                              aria-selected={false}
+                              className="item"
+                              onClick={[Function]}
+                              role="option"
+                              style={
+                                Object {
+                                  "pointerEvents": "all",
+                                }
+                              }
+                            >
+                              <Flag
+                                as="i"
+                                name="gb"
+                              >
+                                <i
+                                  className="gb flag"
+                                />
+                              </Flag>
+                              <span
+                                className="text"
+                              >
+                                GBP
+                              </span>
+                            </div>
+                          </DropdownItem>
+                          <DropdownItem
+                            active={false}
+                            flag="hk"
+                            key="HKD"
+                            onClick={[Function]}
+                            selected={false}
+                            style={
+                              Object {
+                                "pointerEvents": "all",
+                              }
+                            }
+                            text="HKD"
+                            value="HKD"
+                          >
+                            <div
+                              aria-checked={false}
+                              aria-selected={false}
+                              className="item"
+                              onClick={[Function]}
+                              role="option"
+                              style={
+                                Object {
+                                  "pointerEvents": "all",
+                                }
+                              }
+                            >
+                              <Flag
+                                as="i"
+                                name="hk"
+                              >
+                                <i
+                                  className="hk flag"
+                                />
+                              </Flag>
+                              <span
+                                className="text"
+                              >
+                                HKD
+                              </span>
+                            </div>
+                          </DropdownItem>
+                          <DropdownItem
+                            active={false}
+                            flag="hr"
+                            key="HRK"
+                            onClick={[Function]}
+                            selected={false}
+                            style={
+                              Object {
+                                "pointerEvents": "all",
+                              }
+                            }
+                            text="HRK"
+                            value="HRK"
+                          >
+                            <div
+                              aria-checked={false}
+                              aria-selected={false}
+                              className="item"
+                              onClick={[Function]}
+                              role="option"
+                              style={
+                                Object {
+                                  "pointerEvents": "all",
+                                }
+                              }
+                            >
+                              <Flag
+                                as="i"
+                                name="hr"
+                              >
+                                <i
+                                  className="hr flag"
+                                />
+                              </Flag>
+                              <span
+                                className="text"
+                              >
+                                HRK
+                              </span>
+                            </div>
+                          </DropdownItem>
+                          <DropdownItem
+                            active={false}
+                            flag="hu"
+                            key="HUF"
+                            onClick={[Function]}
+                            selected={false}
+                            style={
+                              Object {
+                                "pointerEvents": "all",
+                              }
+                            }
+                            text="HUF"
+                            value="HUF"
+                          >
+                            <div
+                              aria-checked={false}
+                              aria-selected={false}
+                              className="item"
+                              onClick={[Function]}
+                              role="option"
+                              style={
+                                Object {
+                                  "pointerEvents": "all",
+                                }
+                              }
+                            >
+                              <Flag
+                                as="i"
+                                name="hu"
+                              >
+                                <i
+                                  className="hu flag"
+                                />
+                              </Flag>
+                              <span
+                                className="text"
+                              >
+                                HUF
+                              </span>
+                            </div>
+                          </DropdownItem>
+                          <DropdownItem
+                            active={false}
+                            flag="id"
+                            key="IDR"
+                            onClick={[Function]}
+                            selected={false}
+                            style={
+                              Object {
+                                "pointerEvents": "all",
+                              }
+                            }
+                            text="IDR"
+                            value="IDR"
+                          >
+                            <div
+                              aria-checked={false}
+                              aria-selected={false}
+                              className="item"
+                              onClick={[Function]}
+                              role="option"
+                              style={
+                                Object {
+                                  "pointerEvents": "all",
+                                }
+                              }
+                            >
+                              <Flag
+                                as="i"
+                                name="id"
+                              >
+                                <i
+                                  className="id flag"
+                                />
+                              </Flag>
+                              <span
+                                className="text"
+                              >
+                                IDR
+                              </span>
+                            </div>
+                          </DropdownItem>
+                          <DropdownItem
+                            active={false}
+                            flag="il"
+                            key="ILS"
+                            onClick={[Function]}
+                            selected={false}
+                            style={
+                              Object {
+                                "pointerEvents": "all",
+                              }
+                            }
+                            text="ILS"
+                            value="ILS"
+                          >
+                            <div
+                              aria-checked={false}
+                              aria-selected={false}
+                              className="item"
+                              onClick={[Function]}
+                              role="option"
+                              style={
+                                Object {
+                                  "pointerEvents": "all",
+                                }
+                              }
+                            >
+                              <Flag
+                                as="i"
+                                name="il"
+                              >
+                                <i
+                                  className="il flag"
+                                />
+                              </Flag>
+                              <span
+                                className="text"
+                              >
+                                ILS
+                              </span>
+                            </div>
+                          </DropdownItem>
+                          <DropdownItem
+                            active={false}
+                            flag="in"
+                            key="INR"
+                            onClick={[Function]}
+                            selected={false}
+                            style={
+                              Object {
+                                "pointerEvents": "all",
+                              }
+                            }
+                            text="INR"
+                            value="INR"
+                          >
+                            <div
+                              aria-checked={false}
+                              aria-selected={false}
+                              className="item"
+                              onClick={[Function]}
+                              role="option"
+                              style={
+                                Object {
+                                  "pointerEvents": "all",
+                                }
+                              }
+                            >
+                              <Flag
+                                as="i"
+                                name="in"
+                              >
+                                <i
+                                  className="in flag"
+                                />
+                              </Flag>
+                              <span
+                                className="text"
+                              >
+                                INR
+                              </span>
+                            </div>
+                          </DropdownItem>
+                          <DropdownItem
+                            active={false}
+                            flag="is"
+                            key="ISK"
+                            onClick={[Function]}
+                            selected={false}
+                            style={
+                              Object {
+                                "pointerEvents": "all",
+                              }
+                            }
+                            text="ISK"
+                            value="ISK"
+                          >
+                            <div
+                              aria-checked={false}
+                              aria-selected={false}
+                              className="item"
+                              onClick={[Function]}
+                              role="option"
+                              style={
+                                Object {
+                                  "pointerEvents": "all",
+                                }
+                              }
+                            >
+                              <Flag
+                                as="i"
+                                name="is"
+                              >
+                                <i
+                                  className="is flag"
+                                />
+                              </Flag>
+                              <span
+                                className="text"
+                              >
+                                ISK
+                              </span>
+                            </div>
+                          </DropdownItem>
+                          <DropdownItem
+                            active={false}
+                            flag="jp"
+                            key="JPY"
+                            onClick={[Function]}
+                            selected={false}
+                            style={
+                              Object {
+                                "pointerEvents": "all",
+                              }
+                            }
+                            text="JPY"
+                            value="JPY"
+                          >
+                            <div
+                              aria-checked={false}
+                              aria-selected={false}
+                              className="item"
+                              onClick={[Function]}
+                              role="option"
+                              style={
+                                Object {
+                                  "pointerEvents": "all",
+                                }
+                              }
+                            >
+                              <Flag
+                                as="i"
+                                name="jp"
+                              >
+                                <i
+                                  className="jp flag"
+                                />
+                              </Flag>
+                              <span
+                                className="text"
+                              >
+                                JPY
+                              </span>
+                            </div>
+                          </DropdownItem>
+                          <DropdownItem
+                            active={false}
+                            flag="kr"
+                            key="KRW"
+                            onClick={[Function]}
+                            selected={false}
+                            style={
+                              Object {
+                                "pointerEvents": "all",
+                              }
+                            }
+                            text="KRW"
+                            value="KRW"
+                          >
+                            <div
+                              aria-checked={false}
+                              aria-selected={false}
+                              className="item"
+                              onClick={[Function]}
+                              role="option"
+                              style={
+                                Object {
+                                  "pointerEvents": "all",
+                                }
+                              }
+                            >
+                              <Flag
+                                as="i"
+                                name="kr"
+                              >
+                                <i
+                                  className="kr flag"
+                                />
+                              </Flag>
+                              <span
+                                className="text"
+                              >
+                                KRW
+                              </span>
+                            </div>
+                          </DropdownItem>
+                          <DropdownItem
+                            active={false}
+                            flag="mx"
+                            key="MXN"
+                            onClick={[Function]}
+                            selected={false}
+                            style={
+                              Object {
+                                "pointerEvents": "all",
+                              }
+                            }
+                            text="MXN"
+                            value="MXN"
+                          >
+                            <div
+                              aria-checked={false}
+                              aria-selected={false}
+                              className="item"
+                              onClick={[Function]}
+                              role="option"
+                              style={
+                                Object {
+                                  "pointerEvents": "all",
+                                }
+                              }
+                            >
+                              <Flag
+                                as="i"
+                                name="mx"
+                              >
+                                <i
+                                  className="mx flag"
+                                />
+                              </Flag>
+                              <span
+                                className="text"
+                              >
+                                MXN
+                              </span>
+                            </div>
+                          </DropdownItem>
+                          <DropdownItem
+                            active={false}
+                            flag="my"
+                            key="MYR"
+                            onClick={[Function]}
+                            selected={false}
+                            style={
+                              Object {
+                                "pointerEvents": "all",
+                              }
+                            }
+                            text="MYR"
+                            value="MYR"
+                          >
+                            <div
+                              aria-checked={false}
+                              aria-selected={false}
+                              className="item"
+                              onClick={[Function]}
+                              role="option"
+                              style={
+                                Object {
+                                  "pointerEvents": "all",
+                                }
+                              }
+                            >
+                              <Flag
+                                as="i"
+                                name="my"
+                              >
+                                <i
+                                  className="my flag"
+                                />
+                              </Flag>
+                              <span
+                                className="text"
+                              >
+                                MYR
+                              </span>
+                            </div>
+                          </DropdownItem>
+                          <DropdownItem
+                            active={false}
+                            flag="no"
+                            key="NOK"
+                            onClick={[Function]}
+                            selected={false}
+                            style={
+                              Object {
+                                "pointerEvents": "all",
+                              }
+                            }
+                            text="NOK"
+                            value="NOK"
+                          >
+                            <div
+                              aria-checked={false}
+                              aria-selected={false}
+                              className="item"
+                              onClick={[Function]}
+                              role="option"
+                              style={
+                                Object {
+                                  "pointerEvents": "all",
+                                }
+                              }
+                            >
+                              <Flag
+                                as="i"
+                                name="no"
+                              >
+                                <i
+                                  className="no flag"
+                                />
+                              </Flag>
+                              <span
+                                className="text"
+                              >
+                                NOK
+                              </span>
+                            </div>
+                          </DropdownItem>
+                          <DropdownItem
+                            active={false}
+                            flag="nz"
+                            key="NZD"
+                            onClick={[Function]}
+                            selected={false}
+                            style={
+                              Object {
+                                "pointerEvents": "all",
+                              }
+                            }
+                            text="NZD"
+                            value="NZD"
+                          >
+                            <div
+                              aria-checked={false}
+                              aria-selected={false}
+                              className="item"
+                              onClick={[Function]}
+                              role="option"
+                              style={
+                                Object {
+                                  "pointerEvents": "all",
+                                }
+                              }
+                            >
+                              <Flag
+                                as="i"
+                                name="nz"
+                              >
+                                <i
+                                  className="nz flag"
+                                />
+                              </Flag>
+                              <span
+                                className="text"
+                              >
+                                NZD
+                              </span>
+                            </div>
+                          </DropdownItem>
+                          <DropdownItem
+                            active={false}
+                            flag="ph"
+                            key="PHP"
+                            onClick={[Function]}
+                            selected={false}
+                            style={
+                              Object {
+                                "pointerEvents": "all",
+                              }
+                            }
+                            text="PHP"
+                            value="PHP"
+                          >
+                            <div
+                              aria-checked={false}
+                              aria-selected={false}
+                              className="item"
+                              onClick={[Function]}
+                              role="option"
+                              style={
+                                Object {
+                                  "pointerEvents": "all",
+                                }
+                              }
+                            >
+                              <Flag
+                                as="i"
+                                name="ph"
+                              >
+                                <i
+                                  className="ph flag"
+                                />
+                              </Flag>
+                              <span
+                                className="text"
+                              >
+                                PHP
+                              </span>
+                            </div>
+                          </DropdownItem>
+                          <DropdownItem
+                            active={false}
+                            flag="pl"
+                            key="PLN"
+                            onClick={[Function]}
+                            selected={false}
+                            style={
+                              Object {
+                                "pointerEvents": "all",
+                              }
+                            }
+                            text="PLN"
+                            value="PLN"
+                          >
+                            <div
+                              aria-checked={false}
+                              aria-selected={false}
+                              className="item"
+                              onClick={[Function]}
+                              role="option"
+                              style={
+                                Object {
+                                  "pointerEvents": "all",
+                                }
+                              }
+                            >
+                              <Flag
+                                as="i"
+                                name="pl"
+                              >
+                                <i
+                                  className="pl flag"
+                                />
+                              </Flag>
+                              <span
+                                className="text"
+                              >
+                                PLN
+                              </span>
+                            </div>
+                          </DropdownItem>
+                          <DropdownItem
+                            active={false}
+                            flag="ro"
+                            key="RON"
+                            onClick={[Function]}
+                            selected={false}
+                            style={
+                              Object {
+                                "pointerEvents": "all",
+                              }
+                            }
+                            text="RON"
+                            value="RON"
+                          >
+                            <div
+                              aria-checked={false}
+                              aria-selected={false}
+                              className="item"
+                              onClick={[Function]}
+                              role="option"
+                              style={
+                                Object {
+                                  "pointerEvents": "all",
+                                }
+                              }
+                            >
+                              <Flag
+                                as="i"
+                                name="ro"
+                              >
+                                <i
+                                  className="ro flag"
+                                />
+                              </Flag>
+                              <span
+                                className="text"
+                              >
+                                RON
+                              </span>
+                            </div>
+                          </DropdownItem>
+                          <DropdownItem
+                            active={false}
+                            flag="ru"
+                            key="RUB"
+                            onClick={[Function]}
+                            selected={false}
+                            style={
+                              Object {
+                                "pointerEvents": "all",
+                              }
+                            }
+                            text="RUB"
+                            value="RUB"
+                          >
+                            <div
+                              aria-checked={false}
+                              aria-selected={false}
+                              className="item"
+                              onClick={[Function]}
+                              role="option"
+                              style={
+                                Object {
+                                  "pointerEvents": "all",
+                                }
+                              }
+                            >
+                              <Flag
+                                as="i"
+                                name="ru"
+                              >
+                                <i
+                                  className="ru flag"
+                                />
+                              </Flag>
+                              <span
+                                className="text"
+                              >
+                                RUB
+                              </span>
+                            </div>
+                          </DropdownItem>
+                          <DropdownItem
+                            active={false}
+                            flag="se"
+                            key="SEK"
+                            onClick={[Function]}
+                            selected={false}
+                            style={
+                              Object {
+                                "pointerEvents": "all",
+                              }
+                            }
+                            text="SEK"
+                            value="SEK"
+                          >
+                            <div
+                              aria-checked={false}
+                              aria-selected={false}
+                              className="item"
+                              onClick={[Function]}
+                              role="option"
+                              style={
+                                Object {
+                                  "pointerEvents": "all",
+                                }
+                              }
+                            >
+                              <Flag
+                                as="i"
+                                name="se"
+                              >
+                                <i
+                                  className="se flag"
+                                />
+                              </Flag>
+                              <span
+                                className="text"
+                              >
+                                SEK
+                              </span>
+                            </div>
+                          </DropdownItem>
+                          <DropdownItem
+                            active={false}
+                            flag="sg"
+                            key="SGD"
+                            onClick={[Function]}
+                            selected={false}
+                            style={
+                              Object {
+                                "pointerEvents": "all",
+                              }
+                            }
+                            text="SGD"
+                            value="SGD"
+                          >
+                            <div
+                              aria-checked={false}
+                              aria-selected={false}
+                              className="item"
+                              onClick={[Function]}
+                              role="option"
+                              style={
+                                Object {
+                                  "pointerEvents": "all",
+                                }
+                              }
+                            >
+                              <Flag
+                                as="i"
+                                name="sg"
+                              >
+                                <i
+                                  className="sg flag"
+                                />
+                              </Flag>
+                              <span
+                                className="text"
+                              >
+                                SGD
+                              </span>
+                            </div>
+                          </DropdownItem>
+                          <DropdownItem
+                            active={false}
+                            flag="th"
+                            key="THB"
+                            onClick={[Function]}
+                            selected={false}
+                            style={
+                              Object {
+                                "pointerEvents": "all",
+                              }
+                            }
+                            text="THB"
+                            value="THB"
+                          >
+                            <div
+                              aria-checked={false}
+                              aria-selected={false}
+                              className="item"
+                              onClick={[Function]}
+                              role="option"
+                              style={
+                                Object {
+                                  "pointerEvents": "all",
+                                }
+                              }
+                            >
+                              <Flag
+                                as="i"
+                                name="th"
+                              >
+                                <i
+                                  className="th flag"
+                                />
+                              </Flag>
+                              <span
+                                className="text"
+                              >
+                                THB
+                              </span>
+                            </div>
+                          </DropdownItem>
+                          <DropdownItem
+                            active={false}
+                            flag="tr"
+                            key="TRY"
+                            onClick={[Function]}
+                            selected={false}
+                            style={
+                              Object {
+                                "pointerEvents": "all",
+                              }
+                            }
+                            text="TRY"
+                            value="TRY"
+                          >
+                            <div
+                              aria-checked={false}
+                              aria-selected={false}
+                              className="item"
+                              onClick={[Function]}
+                              role="option"
+                              style={
+                                Object {
+                                  "pointerEvents": "all",
+                                }
+                              }
+                            >
+                              <Flag
+                                as="i"
+                                name="tr"
+                              >
+                                <i
+                                  className="tr flag"
+                                />
+                              </Flag>
+                              <span
+                                className="text"
+                              >
+                                TRY
+                              </span>
+                            </div>
+                          </DropdownItem>
+                          <DropdownItem
+                            active={false}
+                            flag="us"
+                            key="USD"
+                            onClick={[Function]}
+                            selected={false}
+                            style={
+                              Object {
+                                "pointerEvents": "all",
+                              }
+                            }
+                            text="USD"
+                            value="USD"
+                          >
+                            <div
+                              aria-checked={false}
+                              aria-selected={false}
+                              className="item"
+                              onClick={[Function]}
+                              role="option"
+                              style={
+                                Object {
+                                  "pointerEvents": "all",
+                                }
+                              }
+                            >
+                              <Flag
+                                as="i"
+                                name="us"
+                              >
+                                <i
+                                  className="us flag"
+                                />
+                              </Flag>
+                              <span
+                                className="text"
+                              >
+                                USD
+                              </span>
+                            </div>
+                          </DropdownItem>
+                          <DropdownItem
+                            active={false}
+                            flag="za"
+                            key="ZAR"
+                            onClick={[Function]}
+                            selected={false}
+                            style={
+                              Object {
+                                "pointerEvents": "all",
+                              }
+                            }
+                            text="ZAR"
+                            value="ZAR"
+                          >
+                            <div
+                              aria-checked={false}
+                              aria-selected={false}
+                              className="item"
+                              onClick={[Function]}
+                              role="option"
+                              style={
+                                Object {
+                                  "pointerEvents": "all",
+                                }
+                              }
+                            >
+                              <Flag
+                                as="i"
+                                name="za"
+                              >
+                                <i
+                                  className="za flag"
+                                />
+                              </Flag>
+                              <span
+                                className="text"
+                              >
+                                ZAR
+                              </span>
+                            </div>
+                          </DropdownItem>
+                        </div>
+                      </DropdownMenu>
+                    </div>
+                  </Dropdown>
+                </div>
+              </GridColumn>
+              <GridColumn
+                width="3"
+              >
+                <div
+                  className="three wide column"
+                >
+                  <Button
+                    as="button"
+                    color="teal"
+                    fluid={true}
+                    onClick={[Function]}
+                    role="button"
+                    size="medium"
+                  >
+                    <button
+                      className="ui teal medium fluid button"
+                      onClick={[Function]}
+                      role="button"
+                    >
+                      <FormattedMessage
+                        defaultMessage="Submit"
+                        id="app.components.Form.submit"
+                        values={Object {}}
+                      >
+                        <span>
+                          Submit
+                        </span>
+                      </FormattedMessage>
+                    </button>
+                  </Button>
+                </div>
+              </GridColumn>
+            </div>
+          </GridRow>
+        </div>
+      </Grid>
+    </div>
+  </Segment>
+</Form>
+`;
