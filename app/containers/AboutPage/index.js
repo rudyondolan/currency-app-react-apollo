@@ -7,9 +7,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Helmet } from 'react-helmet';
-import { Container, Header, Divider, Icon } from 'semantic-ui-react';
-
-import Button from 'components/Button';
+import { Container, Header, Divider, Icon, Button } from 'semantic-ui-react';
 
 const AboutWrapper = styled.div`
   p {

@@ -12,17 +12,19 @@ const RootQuery = `
   }
 `;
 
-const RootMutation = ``;
+// const RootMutation = `
+//   type RootMutation {}
+// `;
 
 const SchemaDefinition = `
   schema {
     query: RootQuery
-    mutation: RootMutation
+    # mutation: RootMutation
   }
 `;
 
 const schema = makeExecutableSchema({
-  typeDefs: [SchemaDefinition, RootQuery, RootMutation, Exchange],
+  typeDefs: [SchemaDefinition, RootQuery, /* RootMutation, */ Exchange],
   resolvers,
 });
 

@@ -1,9 +1,8 @@
 import React from 'react';
-import { Dropdown, Grid, Segment } from 'semantic-ui-react';
+import { Dropdown, Grid, Segment, Button } from 'semantic-ui-react';
 import PropTypes from 'prop-types';
 import { FormattedMessage } from 'react-intl';
 
-import Button from 'components/Button';
 import messages from './messages';
 
 const countryOptions = [
