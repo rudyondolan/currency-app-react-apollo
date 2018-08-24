@@ -1,3 +1,5 @@
+import { isNaN } from 'lodash';
+
 export function toFloat(value) {
   if (typeof value === 'string') {
     const fVal = parseFloat(value);
@@ -10,4 +12,3 @@ export function toFloat(value) {
 
   return value;
 }
-
